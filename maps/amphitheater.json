@@ -1445,7 +1445,7 @@
                 {
                  "name":"script",
                  "type":"string",
-                 "value":"src\/main.ts"
+                 "value":"..\/src\/main.ts"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -1975,7 +1975,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/main.ts"
+         "value":"..\/src\/main.ts"
         }, 
         {
          "name":"tilesetCopyright",
