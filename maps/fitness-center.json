@@ -1385,7 +1385,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":17.7009052748698,
                  "id":901,
                  "name":"exit-to-mountain",
@@ -1396,13 +1395,13 @@
                          "value":"#entry-mountain"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32.8731097961868,
                  "x":2816.97263945785,
                  "y":768.219288929348
                 }, 
                 {
-                 "class":"area",
                  "height":19.9711948139981,
                  "id":902,
                  "name":"exit-to-ground",
@@ -1413,13 +1412,13 @@
                          "value":"#entry-ground"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32.8731,
                  "x":3648.86722662181,
                  "y":511.877327235775
                 }, 
                 {
-                 "class":"area",
                  "height":28.5119827386911,
                  "id":903,
                  "name":"exit-to-map",
@@ -1427,16 +1426,16 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":""
+                         "value":"https:\/\/play.workadventu.re\/@\/choice-charter-school\/charterverse\/choice-charter-school-admin#entry"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":25.4296062264007,
                  "x":2484.01017184249,
                  "y":2673.19103028435
                 }, 
                 {
-                 "class":"area",
                  "height":1384.04226417278,
                  "id":905,
                  "name":"waterfall",
@@ -1457,6 +1456,7 @@
                          "value":"..\/public\/waterfall.mp3"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":903.373406065998,
                  "x":3042.83145760386,
@@ -2444,7 +2444,7 @@
          "value":"This map is the sole property of 100 Roads Inc. All rights are reserved by 100 Roads inc. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Inc."
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.8.4",
  "tileheight":32,
  "tilesets":[
         {
@@ -21417,12 +21417,12 @@
          "margin":0,
          "name":"interactions",
          "spacing":0,
-         "tilecount":1600,
+         "tilecount":400,
          "tileheight":32,
          "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.8",
  "width":123
 }
